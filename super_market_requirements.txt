@@ -1,0 +1,30 @@
+Build a Python-based supermarket billing system that allows users to view a list of products, add items to their cart, calculate the total bill with tax, and display a receipt.
+Functional Requirements:
+
+    User Interaction:
+        The system should ask for the customer’s name.
+        Display a list of available products with their prices.
+        Allow users to add multiple items to their cart.
+        Validate that the quantity entered is a valid number.
+        Display an itemized bill with total and tax before exiting.
+
+    Product Catalog:
+        Maintain a dictionary of products and their prices.
+        Display the product list when requested.
+
+    Billing and Calculations:
+        Compute the total price based on item quantities.
+        Apply a 12% tax on the total amount.
+        Display a detailed invoice with:
+            Item name
+            Quantity
+            Price per unit
+            Total price for each item
+            Total amount before and after tax
+
+    Receipt Format:
+        Display a well-formatted bill with store name, location, and transaction details.
+
+    Exit Mechanism:
+        Allow users to exit the purchase process at any time.
+        Display a "Thank you" message upon exiting.
